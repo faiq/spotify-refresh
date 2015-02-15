@@ -1,0 +1,25 @@
+{
+  "name": "spotify-refresh",
+  "version": "1.0.0",
+  "description": "send a refresh token for a new access token from spotify",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/faiq/spotify-refresh"
+  },
+  "keywords": [
+    "spotify",
+    "oauth",
+    "refresh",
+    "token"
+  ],
+  "author": "faiq",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/faiq/spotify-refresh/issues"
+  },
+  "homepage": "https://github.com/faiq/spotify-refresh"
+}
