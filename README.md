@@ -3,7 +3,7 @@ Use this module to obtain a new refresh and accessToken from spotfiy
 
 ##Example 
 ```javascript 
-var refresh = require('spotify-refresh)
+var refresh = require('spotify-refresh')
 
 refresh(refreshToken, clientID, clientSecret, function (err, res, body) { 
   if (err) return
