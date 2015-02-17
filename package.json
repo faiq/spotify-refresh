@@ -1,6 +1,6 @@
 {
   "name": "spotify-refresh",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "send a refresh token for a new access token from spotify",
   "main": "index.js",
   "scripts": {
