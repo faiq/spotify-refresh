@@ -8,7 +8,7 @@ module.exports = function (refreshToken, clientID, clientSecret, next) {
       'refresh_token': refreshToken
     },
     headers: { 
-      'Authorization': 'Basic ' +  clientID+clientSecret
+      'Authorization': 'Basic ' +  new Buffer(clientID + ':' clientSecret).toString('base64')
     }
   } 
   return request(opts, next)
